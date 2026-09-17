@@ -14,6 +14,7 @@ This repo is Jarvis’s working index for LayoutAR-class work (anchor geometry t
 | visionOS / persistence | [visionOS anchoring](docs/03-visionos.md) |
 | WWDC sessions | [WWDC index](docs/04-wwdc-sessions.md) |
 | Copy-paste recipes (ft→m, tap-to-place) | [Practical recipes](docs/05-practical-recipes.md) |
+| Geospatial BIM, survey, Trimble, tilt-up | [Construction context brief](docs/06-geospatial-bim-tiltup.md) |
 | Full link list | [REFERENCES.md](REFERENCES.md) |
 
 ## Project conventions (Brennan / LayoutAR)
@@ -22,6 +23,7 @@ This repo is Jarvis’s working index for LayoutAR-class work (anchor geometry t
 - **Units:** RealityKit uses **meters**. Convert decimal feet with `× 0.3048`
 - **Colors:** Bright, distinct AR visualization colors
 - **Not enough alone:** AR Quick Look can show USDZ but does **not** run full anchor/component behavior
+- **Field grammar:** nails/marks → lines → midpoints → dig/pour rectangles → panel edges (tilt-up / foundations)
 
 ## Maintenance
 
@@ -31,4 +33,4 @@ Source Drive pack (also curated by Debian): see `MAINTENANCE.md`.
 
 ## License / provenance
 
-Links and summaries point at Apple’s official Developer documentation and WWDC sessions. This repo does not redistribute Apple’s copyrighted page bodies — only curated indexes, recipes, and project notes.
+Links and summaries point at Apple’s official Developer documentation and WWDC sessions. This repo does not redistribute Apple’s copyrighted page bodies — only curated indexes, recipes, and project notes. The construction context brief cites Trimble, ACI/TCA, Autodesk, and other primary sources without redistributing their manuals.
