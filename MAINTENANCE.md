@@ -24,3 +24,7 @@ Jarvis should:
 - Keep the pack **curated and anchoring-focused** — not a scrape of every AR page.
 - Do **not** invent APIs. Cite Apple URLs in briefs and generated code comments.
 - Preserve LayoutAR conventions: RealityKit runtime, ft→m `× 0.3048`, bright AR colors.
+
+## Last freshness check
+
+- **2026-09-21 (PT):** Existing Apple doc + WWDC links still live and titles match. Added WWDC26 object-tracking / RealityKit sessions, `SpatialTrackingSession`, combining-spatial-support doc, and canonical `environmental-analysis` URL. Drive Google Doc still dated 2026-09-17 — needs parallel WWDC26 additions when editable.

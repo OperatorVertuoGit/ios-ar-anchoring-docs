@@ -10,7 +10,7 @@ Covers: `ARWorldTrackingConfiguration`, plane detection, `ARCoachingOverlayView`
 
 Browse siblings from:
 
-[Environmental analysis](https://developer.apple.com/documentation/arkit/environmental_analysis)
+[Environmental analysis](https://developer.apple.com/documentation/arkit/environmental-analysis)
 
 ## Raycasting (RealityKit `ARView`)
 
@@ -44,3 +44,7 @@ Places a cube on a detected plane; open in Reality Composer to swap models.
 6. Convert layout feet → meters (`× 0.3048`) before sizing or offsets.
 
 See [Practical recipes](05-practical-recipes.md).
+
+## Related (WWDC26)
+
+Object tracking is expanding to iOS — see [Explore enhancements to visionOS object tracking — WWDC26](https://developer.apple.com/videos/play/wwdc2026/283/) when anchoring to a known physical object rather than a plane alone.
