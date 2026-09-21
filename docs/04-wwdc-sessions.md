@@ -8,7 +8,10 @@ Curated sessions tied to placing and anchoring 3D content.
 - [Evolve your ARKit app for spatial experiences — WWDC23](https://developer.apple.com/videos/play/wwdc2023/10091/)
 - [Enhance your spatial computing app with RealityKit — WWDC23](https://developer.apple.com/videos/play/wwdc2023/10081/)
 - [Explore object tracking for visionOS — WWDC24](https://developer.apple.com/videos/play/wwdc2024/10101/)
-- [What’s new in RealityKit — WWDC25](https://developer.apple.com/videos/play/wwdc2025/287/)
+- [What’s new in RealityKit — WWDC25](https://developer.apple.com/videos/play/wwdc2025/287/) — `SpatialTrackingSession` + `AnchorStateEvents`
+- [Explore enhancements to visionOS object tracking — WWDC26](https://developer.apple.com/videos/play/wwdc2026/283/) — high-frame-rate / handheld tracking; metric-space poses; **object tracking on iOS**
+- [Explore advances in RealityKit — WWDC26](https://developer.apple.com/videos/play/wwdc2026/279/) — rendering/lighting (physical-space lighting, Gaussian splats); less placement-critical but useful context
+- [Build next-generation experiences with visionOS 27 — WWDC26](https://developer.apple.com/videos/play/wwdc2026/287/) — overview incl. Reality Composer Pro 3 + object tracking
 
 ## Reality Composer / artist tools
 
