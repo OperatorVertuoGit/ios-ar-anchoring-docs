@@ -21,10 +21,22 @@ Anchoring beyond the window — durable world positions and object tracking.
 - [SpatialTrackingSession](https://developer.apple.com/documentation/realitykit/spatialtrackingsession)
 - [Combining spatial support from multiple frameworks](https://developer.apple.com/documentation/visionos/combining-spatial-support-from-multiple-frameworks)
 
+## Shared anchors (visionOS 26+)
+
+- [SharedCoordinateSpaceProvider](https://developer.apple.com/documentation/arkit/sharedcoordinatespaceprovider) — establish a shared coordinate space among nearby participants
+- [WorldAnchor.isSharedWithNearbyParticipants](https://developer.apple.com/documentation/arkit/worldanchor/issharedwithnearbyparticipants) — world anchors shared with nearby devices
+
+## Object tracking APIs
+
+- [ObjectTrackingProvider](https://developer.apple.com/documentation/arkit/objecttrackingprovider)
+- [Implementing object tracking in your app](https://developer.apple.com/documentation/visionos/implementing-object-tracking-in-your-app)
+- iOS 27+: [ARWorldTrackingConfiguration.trackingObjects](https://developer.apple.com/documentation/arkit/arworldtrackingconfiguration/trackingobjects)
+
 ## Pattern chooser
 
 | Need | Prefer |
 |------|--------|
 | Simple surfaces (floor / wall / table) | `AnchorEntity(.plane(...))` in `ImmersiveSpace` |
 | Durable world positions across sessions | `WorldTrackingProvider` + `WorldAnchor` (map UUID → content) |
+| Same anchors on several nearby headsets | `SharedCoordinateSpaceProvider` + shared `WorldAnchor` |
 | Known physical object | Object tracking + Reality Composer Pro Anchoring target **Object** |

@@ -22,7 +22,7 @@ Browse siblings from:
 
 ## Plane detection
 
-[planeDetection](https://developer.apple.com/documentation/arkit/arworldtrackingconfiguration/planedetection) on `ARWorldTrackingConfiguration`.
+[planeDetection](https://developer.apple.com/documentation/arkit/arworldtrackingconfiguration/planedetection-swift.struct) on `ARWorldTrackingConfiguration`.
 
 ## Apple staff guidance (forums)
 
@@ -45,6 +45,8 @@ Places a cube on a detected plane; open in Reality Composer to swap models.
 
 See [Practical recipes](05-practical-recipes.md).
 
-## Related (WWDC26)
+## Object tracking on iOS (iOS / iPadOS 27+)
 
-Object tracking is expanding to iOS — see [Explore enhancements to visionOS object tracking — WWDC26](https://developer.apple.com/videos/play/wwdc2026/283/) when anchoring to a known physical object rather than a plane alone.
+Apple added [trackingObjects](https://developer.apple.com/documentation/arkit/arworldtrackingconfiguration/trackingobjects) to `ARWorldTrackingConfiguration` (listed in [ARKit updates, June 2026](https://developer.apple.com/documentation/updates/arkit)): detect and track known physical objects inside a normal world-tracking session. Useful when anchoring to a known physical object rather than a plane alone. Background: [Explore enhancements to visionOS object tracking — WWDC26](https://developer.apple.com/videos/play/wwdc2026/283/).
+
+Note: requires the iOS 27 SDK (Xcode 27 era). Brennan’s 2017 iMac on Ventura / Xcode 15.2 can’t build against it — treat as future path, not MVP.

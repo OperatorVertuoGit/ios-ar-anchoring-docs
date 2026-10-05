@@ -14,7 +14,7 @@ Keep this repo’s Apple AR anchoring index current for LayoutAR / Reality Lab w
 Jarvis should:
 
 1. Re-open key starter URLs in [REFERENCES.md](REFERENCES.md) and the docs under `docs/`.
-2. Note broken links, renamed APIs, deprecations, or clearly newer official guidance / WWDC sessions that belong here.
+2. Note broken links, renamed APIs, deprecations, or clearly newer official guidance / WWDC sessions that belong here. Check [ARKit updates](https://developer.apple.com/documentation/updates/arkit) for newly added APIs.
 3. Update this repo (and the Drive index when appropriate).
 4. **Always** notify Brennan in chat — even if nothing changed (“checked YYYY-MM-DD — all current” or a short changelog).
 
@@ -27,4 +27,5 @@ Jarvis should:
 
 ## Last freshness check
 
+- **2026-10-05 (PT):** All 41 Apple doc + WWDC links live with matching titles; no deprecations flagged on indexed APIs. Added iOS 27 `ARWorldTrackingConfiguration.trackingObjects`, `ObjectTrackingProvider` + object-tracking guide, visionOS 26 shared anchors (`SharedCoordinateSpaceProvider`, `isSharedWithNearbyParticipants`), ARKit updates changelog link; canonicalized `planeDetection` URL. (2026-09-28 run failed; no changes that week.)
 - **2026-09-21 (PT):** Existing Apple doc + WWDC links still live and titles match. Added WWDC26 object-tracking / RealityKit sessions, `SpatialTrackingSession`, combining-spatial-support doc, and canonical `environmental-analysis` URL. Drive Google Doc still dated 2026-09-17 — needs parallel WWDC26 additions when editable.
