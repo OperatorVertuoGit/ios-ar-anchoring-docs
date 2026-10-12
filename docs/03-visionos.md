@@ -30,7 +30,7 @@ Anchoring beyond the window — durable world positions and object tracking.
 
 - [ObjectTrackingProvider](https://developer.apple.com/documentation/arkit/objecttrackingprovider)
 - [Implementing object tracking in your app](https://developer.apple.com/documentation/visionos/implementing-object-tracking-in-your-app)
-- iOS 27+: [ARWorldTrackingConfiguration.trackingObjects](https://developer.apple.com/documentation/arkit/arworldtrackingconfiguration/trackingobjects)
+- iOS 27+: [detectionObjects](https://developer.apple.com/documentation/arkit/arworldtrackingconfiguration/detectionobjects) (stationary) and [trackingObjects](https://developer.apple.com/documentation/arkit/arworldtrackingconfiguration/trackingobjects) (moving / handheld)
 
 ## Pattern chooser
 

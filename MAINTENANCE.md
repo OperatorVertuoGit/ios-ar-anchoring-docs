@@ -27,5 +27,6 @@ Jarvis should:
 
 ## Last freshness check
 
+- **2026-10-12 (PT):** All indexed Apple doc + WWDC links still HTTP 200 with matching titles (forum thread 723558 may show Apple’s Security Verification interstitial to bots). No deprecations flagged. Added iOS 27 companion API `ARWorldTrackingConfiguration.detectionObjects` (stationary / lower power) next to `trackingObjects`. Drive: published refreshed pack `Apple_AR_Anchoring_DocsPack_ForJarvis_2026-10-12` in Reality-Lab (original 2026-09-17 doc left in place).
 - **2026-10-05 (PT):** All 41 Apple doc + WWDC links live with matching titles; no deprecations flagged on indexed APIs. Added iOS 27 `ARWorldTrackingConfiguration.trackingObjects`, `ObjectTrackingProvider` + object-tracking guide, visionOS 26 shared anchors (`SharedCoordinateSpaceProvider`, `isSharedWithNearbyParticipants`), ARKit updates changelog link; canonicalized `planeDetection` URL. (2026-09-28 run failed; no changes that week.)
 - **2026-09-21 (PT):** Existing Apple doc + WWDC links still live and titles match. Added WWDC26 object-tracking / RealityKit sessions, `SpatialTrackingSession`, combining-spatial-support doc, and canonical `environmental-analysis` URL. Drive Google Doc still dated 2026-09-17 — needs parallel WWDC26 additions when editable.

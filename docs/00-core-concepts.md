@@ -7,7 +7,7 @@ Read these first — they define how Apple represents “a thing stuck to the re
 **[ARAnchor](https://developer.apple.com/documentation/arkit/aranchor)**  
 Position and orientation of content in the physical environment. Adding anchors helps ARKit optimize tracking near that point; move anchors when content moves.
 
-**[ARWorldTrackingConfiguration](https://developer.apple.com/documentation/arkit/arworldtrackingConfiguration)**  
+**[ARWorldTrackingConfiguration](https://developer.apple.com/documentation/arkit/arworldtrackingconfiguration)**  
 6DOF device tracking relative to the environment. Key knobs for placement work:
 
 - `planeDetection` — horizontal / vertical planes

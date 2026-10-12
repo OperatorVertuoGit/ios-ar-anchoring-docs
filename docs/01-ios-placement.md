@@ -47,6 +47,11 @@ See [Practical recipes](05-practical-recipes.md).
 
 ## Object tracking on iOS (iOS / iPadOS 27+)
 
-Apple added [trackingObjects](https://developer.apple.com/documentation/arkit/arworldtrackingconfiguration/trackingobjects) to `ARWorldTrackingConfiguration` (listed in [ARKit updates, June 2026](https://developer.apple.com/documentation/updates/arkit)): detect and track known physical objects inside a normal world-tracking session. Useful when anchoring to a known physical object rather than a plane alone. Background: [Explore enhancements to visionOS object tracking — WWDC26](https://developer.apple.com/videos/play/wwdc2026/283/).
+Apple added object tracking to `ARWorldTrackingConfiguration` (see [ARKit updates](https://developer.apple.com/documentation/updates/arkit) and [WWDC26 session 283](https://developer.apple.com/videos/play/wwdc2026/283/)):
+
+- [detectionObjects](https://developer.apple.com/documentation/arkit/arworldtrackingconfiguration/detectionobjects) — mostly stationary reference objects (lower frame rate / power)
+- [trackingObjects](https://developer.apple.com/documentation/arkit/arworldtrackingconfiguration/trackingobjects) — moving / handheld objects at full video frame rate
+
+Both yield `ARObjectAnchor` updates you can wrap with `AnchorEntity(anchor:)`. Use `.referenceobject` files (Create ML / iOS 27); a session can’t mix `.referenceobject` with the older `.arobject` format.
 
 Note: requires the iOS 27 SDK (Xcode 27 era). Brennan’s 2017 iMac on Ventura / Xcode 15.2 can’t build against it — treat as future path, not MVP.

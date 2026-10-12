@@ -2,7 +2,7 @@
 
 Official Apple URLs used by this repo. Prefer these over third-party blogs when helping with anchoring.
 
-Last checked: 2026-10-05 (PT).
+Last checked: 2026-10-12 (PT).
 
 ## Core concepts
 
@@ -29,7 +29,8 @@ Last checked: 2026-10-05 (PT).
 
 ## Object tracking (known physical objects)
 
-- [ARWorldTrackingConfiguration.trackingObjects](https://developer.apple.com/documentation/arkit/arworldtrackingconfiguration/trackingobjects) — **iOS / iPadOS 27+**: detect and track physical objects inside a world-tracking session
+- [ARWorldTrackingConfiguration.detectionObjects](https://developer.apple.com/documentation/arkit/arworldtrackingconfiguration/detectionobjects) — **iOS / iPadOS 27+**: mostly stationary reference objects (lower frame rate / power)
+- [ARWorldTrackingConfiguration.trackingObjects](https://developer.apple.com/documentation/arkit/arworldtrackingconfiguration/trackingobjects) — **iOS / iPadOS 27+**: moving / handheld objects at full video frame rate
 - [ObjectTrackingProvider](https://developer.apple.com/documentation/arkit/objecttrackingprovider) — visionOS 2+
 - [Implementing object tracking in your app](https://developer.apple.com/documentation/visionos/implementing-object-tracking-in-your-app) — train reference objects and track them
 - [Exploring object tracking with ARKit](https://developer.apple.com/documentation/visionos/exploring_object_tracking_with_arkit) — sample
